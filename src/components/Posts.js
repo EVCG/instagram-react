@@ -59,7 +59,6 @@ function Post(props) {
         if (!curtido) {
             setNumeroCurtidas(numeroCutidas + 1)
             setCurtido(true)
-            
         }
 
         const animationTimeout = 500;
